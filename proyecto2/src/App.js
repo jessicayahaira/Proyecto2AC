@@ -1,10 +1,12 @@
 import { Formulario } from "./moduls/Formulario";
+import { C_simplePage } from "./page/contabilidad_simple";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Formulario />
+      
+      <C_simplePage/>
     </div>
   );
 }
